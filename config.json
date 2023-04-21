@@ -1,0 +1,34 @@
+{
+  "inbounds": [{
+    "port": 48288,
+    "listen": "127.0.0.1",
+    "protocol": "vmess",
+    "settings": {
+      "clients": [
+        {
+          "id": "ffe4dd19-48a7-4f9a-96de-eff5cfb99929",
+          "level": 1,
+          "alterId": 0
+        }
+      ],
+      "disableInsecureEncryption": false
+    },
+    "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+            "path": "/fdasf",
+            "headers": {
+                "Host": "zxc.seeyouagin.top"
+            }
+        }
+    }
+  }],
+  "outbounds": [{
+    "protocol": "freedom",
+    "settings": {}
+  },{
+    "protocol": "blackhole",
+    "settings": {},
+    "tag": "blocked"
+  }]
+}
