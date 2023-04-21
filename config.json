@@ -1,7 +1,7 @@
 {
   "inbounds": [{
     "port": 48288,
-    "listen": "127.0.0.1",
+    "listen": "0.0.0.0",
     "protocol": "vmess",
     "settings": {
       "clients": [
@@ -24,7 +24,7 @@
     }
   }],
   "outbounds": [{
-    "protocol": "freedom",
+    "protocol": "vmness",
     "settings": {}
   },{
     "protocol": "blackhole",
